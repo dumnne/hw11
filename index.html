@@ -1,0 +1,83 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="liveAlertPlaceholder"></div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+ 
+
+    <div class="card" style="width: 18rem;">
+        <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Âm thầm bên em- Sơn Tùng</h5>
+          <p class="card-text"></p>
+          Tên bài hát<br>
+          Âm thầm bên em<br>
+          Sơn Tùng<br>
+          Chuyên Mục	Nhạc Việt<br>
+          
+
+
+          <a href="#" id="customButton" class="btn btn-primary">Good</a>
+          <a href="#" id="customButton1" class="btn btn-primary">Bad</a>
+          <a href="https://www.youtube.com/watch?v=30KI5SuECuc" id="customButton2" class="btn btn-primary">Youtube</a>
+        </div>
+      </div>
+      
+      <script>  
+        document.getElementById('customButton').addEventListener('click', function(event) {
+          event.preventDefault(); // 阻止按鈕的默認行為 Ngăn chặn hành vi mặc định của nút
+          appendAlert('Good!', 'success');
+        });
+        document.getElementById('customButton1').addEventListener('click', function(event) {
+          event.preventDefault(); // 阻止按鈕的默認行為 Ngăn chặn hành vi mặc định của nút
+          appendAlert('Bad!', 'danger');
+        });
+      </script>
+
+
+
+<script>
+    //這段JavaScript代碼是為了在網頁上動態創建和顯示一個Bootstrap的警告（alert）元件。讓我們逐行解釋：Đoạn mã JavaScript này dùng để tạo và hiển thị một thành phần cảnh báo (alert) của Bootstrap trên trang web một cách động. Hãy giải thích từng dòng:
+    //這行代碼獲取了ID為liveAlertPlaceholder的HTML元件。這個元件將作為警告訊息的容器。Dòng mã này lấy phần tử HTML có ID là 'liveAlertPlaceholder'. Phần tử này sẽ làm nơi chứa cho các thông báo cảnh báo.
+    const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+
+    //這是一個函數，用於創建一個新的警告訊息並將其添加到alertPlaceholder元件中。這個函數接受兩個參數：message（警告訊息的文本）和type（警告訊息的類型，例如'success'、'danger'等，這將影響警告訊息的顏色）。Đây là một hàm được sử dụng để tạo một thông báo cảnh báo mới và thêm nó vào phần tử 'alertPlaceholder'. Hàm này nhận hai tham số: 'message' (văn bản của thông báo cảnh báo) và 'type' (loại thông báo cảnh báo, chẳng hạn như 'success', 'danger', v.v., điều này sẽ ảnh hưởng đến màu sắc của thông báo cảnh báo).
+    const appendAlert = (message, type) => {
+      //創建一個新的div元素並將其賦值給變量wrapper。Tạo một phần tử 'div' mới và gán nó cho biến 'wrapper'.
+      const wrapper = document.createElement('div')
+
+      //將wrapper的HTML內容設置為一個字串陣列，陣列的每一個元素都是一部分的HTML代碼。字串陣列使用join('')方法連接起來，創建了完整的HTML代碼。Đặt nội dung HTML của 'wrapper' thành một mảng chuỗi, mỗi phần tử của mảng là một phần của mã HTML. Mảng chuỗi được nối lại với nhau bằng phương thức 'join('')', tạo ra mã HTML hoàn chỉnh.
+      wrapper.innerHTML = [
+        //HTML代碼裡包含了一個div元素，其類別為alert alert-${type} alert-dismissible，這裡的${type}將被警告的類型（如'success'，'danger'等）替換。這個div元素包含了警告訊息的文本（${message}）和一個可點擊的按鈕，用於關閉警告。Mã HTML bao gồm một phần tử 'div' có class là 'alert alert-${type} alert-dismissible', nơi '${type}' sẽ được thay thế bằng loại cảnh báo (như 'success', 'danger', v.v.). Phần tử 'div' này chứa văn bản của thông báo cảnh báo ('${message}') và một nút có thể nhấn để đóng thông báo cảnh báo.
+        `<div class="alert alert-${type} alert-dismissible" role="alert">`,
+        `   <div>${message}</div>`,
+        '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+        '</div>'
+      ].join('')
+      //將新創建的wrapper元素添加到alertPlaceholder元素中。這將導致新的警告訊息顯示在網頁上。Thêm phần tử 'wrapper' mới tạo vào phần tử 'alertPlaceholder'. Điều này sẽ khiến thông báo cảnh báo mới xuất hiện trên trang web.
+      alertPlaceholder.append(wrapper)
+    }
+
+    //這行代碼獲取了ID為liveAlertBtn的HTML元件。這個元件將用於觸發新警告訊息的顯示。Dòng mã này lấy phần tử HTML có ID là 'liveAlertBtn'. Phần tử này sẽ được sử dụng để kích hoạt việc hiển thị thông báo cảnh báo mới.
+    const alertTrigger = document.getElementById('liveAlertBtn')
+
+    //這個條件語句檢查liveAlertBtn元件是否存在。如果存在，則為該元件添加一個點擊事件監聽器，當用戶點擊該元件時，將調用appendAlert函數創建一個新的警告訊息。Câu lệnh điều kiện này kiểm tra xem phần tử 'liveAlertBtn' có tồn tại hay không. Nếu có, nó thêm một trình nghe sự kiện click vào phần tử đó, và khi người dùng click vào phần tử, hàm 'appendAlert' sẽ được gọi để tạo một thông báo cảnh báo mới.
+    if (alertTrigger) {
+      alertTrigger.addEventListener('click', () => {
+        appendAlert('Nice, you triggered this alert message!', 'success')
+      })
+    }
+</script>
+
+
+
+
+</body>
+</html>
